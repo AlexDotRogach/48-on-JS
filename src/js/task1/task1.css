@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+  margin-top: 50px;
+  width: 25%;
+  transform: translateX(250px)
+}
+
+form input {
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+form span {
+  margin-right: 5px;
+}
