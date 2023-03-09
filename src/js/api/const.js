@@ -10,4 +10,3 @@ export const headers = (type, body) => {
     }
 }
 
-// ?_limit=20&_page=7

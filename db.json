@@ -1,18 +1,6 @@
 {
   "books": [
     {
-      "name": "newTest",
-      "rating": "10",
-      "describe": "asd",
-      "id": 2
-    },
-    {
-      "name": "asdasdasdasd",
-      "rating": "asd",
-      "describe": "asd",
-      "id": 3
-    },
-    {
       "name": "asdasdasdasd",
       "rating": "asd",
       "describe": "asd",
@@ -20,8 +8,8 @@
     },
     {
       "name": "newText",
-      "rating": "asd",
-      "describe": "asd",
+      "rating": "212",
+      "describe": "dsa",
       "id": 5
     }
   ]

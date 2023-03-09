@@ -1,5 +1,5 @@
-import postBooks from "./api/requests/postBook";
-import { headers } from "./api/const";
+import postBooks from "../api/requests/postBook";
+import { headers } from "../api/const";
 
 function postFormSubmit(event){
     event.preventDefault();
@@ -9,8 +9,14 @@ function postFormSubmit(event){
     const formData = new FormData(event.currentTarget)
 
     for (let [key,value] of formData){
+        if (!value) {
+            alert("Fill all fields")
+            return;
+        };
+
         objValue[key] = value
     }
+
 
     console.log(objValue);
 
